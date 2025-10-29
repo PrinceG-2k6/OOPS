@@ -25,7 +25,7 @@ public class Main {
         System.out.println(Math.E);
 
         double result =Math.pow(2, 3);
-        System.out.println(result);
+        System.out.printf("%f",result);
         System.out.println(Math.abs(-231));
         System.out.println(Math.sqrt(16));
         System.out.println(Math.round(8.342));

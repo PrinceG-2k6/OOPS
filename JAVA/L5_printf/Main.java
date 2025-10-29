@@ -7,10 +7,10 @@ public class Main {
         double a =25.00;
         double b = -17.98;
         double c = 34.32;
-        // //Precision
-        // System.out.printf("%.1f\n",a);
-        // System.out.printf("%.1f\n",b);
-        // System.out.printf("%.1f\n",c);
+        //Precision
+        System.out.printf("%.1f\n",a);
+        System.out.printf("%.1f\n",b);
+        System.out.printf("%.1f\n",c);
 
         //flags
         /*

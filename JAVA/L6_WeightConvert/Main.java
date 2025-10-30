@@ -1,8 +1,10 @@
 package L6_WeightConvert;
+
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Welcome To Weight Conversion application");
         System.out.println("----------------------------------------");
@@ -12,20 +14,30 @@ public class Main {
         int choice = sc.nextInt();
         double weight;
         double newWeight;
-        if(choice==1){
-            System.out.println("Enter In lbs");
-            weight = sc.nextDouble();
-            newWeight = weight*0.453592;
-            System.out.printf("You're Weight in Kg is %.2f"+ newWeight);
+        switch (choice) {
+            case 1 -> {
+                System.out.println("Enter In lbs");
+                weight = sc.nextDouble();
+                newWeight = weight * 0.453592;
+                System.out.printf("You're Weight in Kg is %.2f", newWeight);
 
-        }else if(choice==2){
-            System.out.println("Enter In Kg");
-            weight = sc.nextDouble();
-            newWeight = weight*2.2046;
-            System.out.printf("You're Weight in lbs is %.2f"+ newWeight);
+            }
+            case 2 -> {
+                System.out.println("Enter In Kg");
+                weight = sc.nextDouble();
+                newWeight = weight * 2.2046;
+                System.out.printf("You're Weight in lbs is %.2f" ,newWeight);
+            }
+            default -> System.out.println("Invalid Choice");
         }
-        else{
-             System.out.printf("Invalid Choice");
+
+        String day = "PizzaDay";
+        switch (day) {
+            case "Monday" ,"Tuesday" ,"Wednesday","Thursday" , "Friday"->System.out.println("Its a WeekDay");
+                
+            case "Saturday","Sunday"->System.out.println("Its a WeekDay");
+            default->System.out.println("Its Not a Day");
+               
         }
         sc.close();
     }

@@ -19,7 +19,7 @@ public class Main {
 
          //SUBSTRING
 
-         String email = "princegupta14311@gmail.com";
+        //  String email = "princegupta14311@gmail.com";
         //  String username = email.substring(0,email.indexOf("@")); 
         //  String domain = email.substring(email.indexOf("@")+1); 
     }

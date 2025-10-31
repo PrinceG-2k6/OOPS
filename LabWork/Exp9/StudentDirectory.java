@@ -61,12 +61,12 @@ public class StudentDirectory {
         StudentDirectory directory = new StudentDirectory();
 
         
-        directory.addStudent(new Student("Prince", 20, "S1234"));
-        directory.addStudent(new Student("Aditiya", 21, "S2345"));
-        directory.addStudent(new Student("Ashutosh", 19, "S3456"));
-        // directory.addStudent(new Student("Nikhil", 21, "S4567"));
-        // directory.addStudent(new Student("Om", 19, "S5678"));
-        // directory.addStudent(new Student("Gaurav", 29, "S6789"));
+        directory.addStudent(new Student("Prince", 20, "BT24CSA066"));
+        directory.addStudent(new Student("Aditiya", 21, "BT24ECE071"));
+        directory.addStudent(new Student("Ashutosh", 19, "BT24CSA054"));
+        // directory.addStudent(new Student("Nikhil", 21, "BT24CSA043"));
+        // directory.addStudent(new Student("Om", 19, "BT24CSAECE116"));
+        // directory.addStudent(new Student("Gaurav", 29, "BT24CSE201"));
         // directory.displayAllStudents();
         
 
